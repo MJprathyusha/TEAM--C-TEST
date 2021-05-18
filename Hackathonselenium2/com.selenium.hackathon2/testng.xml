@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+<listener class-name="com.selenium.hackthon2.Listener.ListenerTest"/>
+</listeners>
+  <test  name="Test1">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.SigninAccountTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test2">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.MyAccountTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test3">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.VerifyHomePageTitleTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test4">
+    <classes>
+       <class name="com.selenium.hackathon2.tests.CeilingPageTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test5">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.SearchProductTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test6">
+    <classes>
+       <class name="com.selenium.hackathon2.tests.LiveChatTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test7">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.RemoveProductFromCartTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test8">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.CouponCodeApplyTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test9">
+    <classes>
+       <class name="com.selenium.hackathon2.tests.SigninAccountScrollTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test10">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test11">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.ZipCodeApplyTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test12">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.AddQuantityTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test13">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.AccountLogoutTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test14">
+    <classes>
+      <class name="com.selenium.hackathon2.tests.VerifyHomePageLogoTest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

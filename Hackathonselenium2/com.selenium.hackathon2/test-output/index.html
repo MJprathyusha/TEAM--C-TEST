@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>H:\Softwares\Workspaces\Hackathon2\Hackathonselenium2\com.selenium.hackathon2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">14 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 8 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.CeilingPageTest" class="method navigator-link" hash-for-method="CeilingPageTest2">CeilingPageTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.CeilingPageTest" class="method navigator-link" hash-for-method="CeilingPageTest3">CeilingPageTest3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.CeilingPageTest" class="method navigator-link" hash-for-method="CeilingPageTest4">CeilingPageTest4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.LiveChatTest" class="method navigator-link" hash-for-method="LiveChatwithInValidCredentials">LiveChatwithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.LiveChatTest" class="method navigator-link" hash-for-method="LiveChatwithValidCredentials">LiveChatwithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.CouponCodeApplyTest" class="method navigator-link" hash-for-method="VerifyApplyCouponCode">VerifyApplyCouponCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.RemoveProductFromCartTest" class="method navigator-link" hash-for-method="VerifyRemoveProductFromCart">VerifyRemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.ZipCodeApplyTest" class="method navigator-link" hash-for-method="VerifyZipCodeApply">VerifyZipCodeApply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.CeilingPageTest" class="method navigator-link" hash-for-method="CeilingPageTest1">CeilingPageTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.MyAccountTest" class="method navigator-link" hash-for-method="MyAccountRegister">MyAccountRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.AddQuantityTest" class="method navigator-link" hash-for-method="VerifyAddQuantityTest">VerifyAddQuantityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.VerifyHomePageTitleTest" class="method navigator-link" hash-for-method="VerifyHomePageTitle">VerifyHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.VerifyHomePageLogoTest" class="method navigator-link" hash-for-method="VerifyHomePageTitle">VerifyHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.SigninAccountTest" class="method navigator-link" hash-for-method="signInTest">signInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.SigninAccountScrollTest" class="method navigator-link" hash-for-method="signInTest">signInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.AccountLogoutTest" class="method navigator-link" hash-for-method="signInTest">signInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.SearchProductTest" class="method navigator-link" hash-for-method="verifyProductSearch">verifyProductSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest" class="method navigator-link" hash-for-method="verifyProductSearch">verifyProductSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.CeilingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CeilingPageTest2">
+                  </a> <!-- CeilingPageTest2 -->
+                  <span class="method-name">CeilingPageTest2</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;ltkpopup-close-button&quot;]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-HKP3MAF8&apos;, ip: &apos;192.168.43.169&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551d58fa7689d6d06f96259dc7a6f7b8
+*** Element info: {Using=xpath, value=//*[@id=&quot;ltkpopup-close-button&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.selenium.hackathon2.pages.SigninAccountPage.closeAdvertiseWindow(SigninAccountPage.java:14)
+	at com.selenium.hackathon2.tests.SigninAccountUtil.signInFunctionality(SigninAccountUtil.java:15)
+	at com.selenium.hackathon2.tests.CeilingPageTest.CeilingPageTest2(CeilingPageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CeilingPageTest3">
+                  </a> <!-- CeilingPageTest3 -->
+                  <span class="method-name">CeilingPageTest3</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;ltkpopup-close-button&quot;]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-HKP3MAF8&apos;, ip: &apos;192.168.43.169&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551d58fa7689d6d06f96259dc7a6f7b8
+*** Element info: {Using=xpath, value=//*[@id=&quot;ltkpopup-close-button&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.selenium.hackathon2.pages.SigninAccountPage.closeAdvertiseWindow(SigninAccountPage.java:14)
+	at com.selenium.hackathon2.tests.SigninAccountUtil.signInFunctionality(SigninAccountUtil.java:15)
+	at com.selenium.hackathon2.tests.CeilingPageTest.CeilingPageTest3(CeilingPageTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CeilingPageTest4">
+                  </a> <!-- CeilingPageTest4 -->
+                  <span class="method-name">CeilingPageTest4</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;ltkpopup-close-button&quot;]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-HKP3MAF8&apos;, ip: &apos;192.168.43.169&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551d58fa7689d6d06f96259dc7a6f7b8
+*** Element info: {Using=xpath, value=//*[@id=&quot;ltkpopup-close-button&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.selenium.hackathon2.pages.SigninAccountPage.closeAdvertiseWindow(SigninAccountPage.java:14)
+	at com.selenium.hackathon2.tests.SigninAccountUtil.signInFunctionality(SigninAccountUtil.java:15)
+	at com.selenium.hackathon2.tests.CeilingPageTest.CeilingPageTest4(CeilingPageTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.RemoveProductFromCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRemoveProductFromCart">
+                  </a> <!-- VerifyRemoveProductFromCart -->
+                  <span class="method-name">VerifyRemoveProductFromCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;dwfrm_login_username&quot;]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-HKP3MAF8&apos;, ip: &apos;192.168.43.169&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 677e5fda708859c2078a02a91d79a6b3
+*** Element info: {Using=xpath, value=//*[@id=&quot;dwfrm_login_username&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.selenium.hackathon2.pages.SigninAccountPage.enterEmail(SigninAccountPage.java:22)
+	at com.selenium.hackathon2.tests.SigninAccountUtil.signInFunctionality(SigninAccountUtil.java:19)
+	at com.selenium.hackathon2.tests.RemoveProductFromCartTest.VerifyRemoveProductFromCart(RemoveProductFromCartTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.ZipCodeApplyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyZipCodeApply">
+                  </a> <!-- VerifyZipCodeApply -->
+                  <span class="method-name">VerifyZipCodeApply</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a id=&quot;mcBookMark&quot; name=&quot;mcBookMark&quot; href=&quot;https://www.ylighting.com/cart&quot; title=&quot;View Cart&quot;&gt;...&lt;/a&gt; is not clickable at point (1349, 119). Other element would receive the click: &lt;div class=&quot;ui-widget-overlay ui-front&quot; style=&quot;z-index: 990;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=90.0.4430.212)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-HKP3MAF8&apos;, ip: &apos;192.168.43.169&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5572a9684f76a4de2223416822b86e80
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.selenium.hackathon2.pages.HomePage.clickOnViewCart(HomePage.java:30)
+	at com.selenium.hackathon2.tests.ZipCodeApplyTest.VerifyZipCodeApply(ZipCodeApplyTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.LiveChatTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LiveChatwithInValidCredentials">
+                  </a> <!-- LiveChatwithInValidCredentials -->
+                  <span class="method-name">LiveChatwithInValidCredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&quot;LPMlabel&quot;]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-HKP3MAF8&apos;, ip: &apos;192.168.43.169&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb0c7a772e5bcf0d617e1d15dd43d99
+*** Element info: {Using=xpath, value=//*[@class=&quot;LPMlabel&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.selenium.hackathon2.pages.LiveChatPage.clickOnLiveChat(LiveChatPage.java:19)
+	at com.selenium.hackathon2.tests.LiveChatTest.LiveChatwithInValidCredentials(LiveChatTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LiveChatwithValidCredentials">
+                  </a> <!-- LiveChatwithValidCredentials -->
+                  <span class="method-name">LiveChatwithValidCredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;ltkpopup-close-button&quot;]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-HKP3MAF8&apos;, ip: &apos;192.168.43.169&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb0c7a772e5bcf0d617e1d15dd43d99
+*** Element info: {Using=xpath, value=//*[@id=&quot;ltkpopup-close-button&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.selenium.hackathon2.pages.LiveChatPage.closeAdvertiseWindow(LiveChatPage.java:15)
+	at com.selenium.hackathon2.tests.LiveChatTest.LiveChatwithValidCredentials(LiveChatTest.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.CouponCodeApplyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyApplyCouponCode">
+                  </a> <!-- VerifyApplyCouponCode -->
+                  <span class="method-name">VerifyApplyCouponCode</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-HKP3MAF8&apos;, ip: &apos;192.168.43.169&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 877624aad5d0fb612c3cfafc6d44c7f7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.selenium.hackathon2.pages.HomePage.clickOnViewCart(HomePage.java:30)
+	at com.selenium.hackathon2.tests.CouponCodeApplyTest.VerifyApplyCouponCode(CouponCodeApplyTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.CeilingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CeilingPageTest1">
+                  </a> <!-- CeilingPageTest1 -->
+                  <span class="method-name">CeilingPageTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.VerifyHomePageLogoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHomePageTitle">
+                  </a> <!-- VerifyHomePageTitle -->
+                  <span class="method-name">VerifyHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.AccountLogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInTest">
+                  </a> <!-- signInTest -->
+                  <span class="method-name">signInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.AddQuantityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddQuantityTest">
+                  </a> <!-- VerifyAddQuantityTest -->
+                  <span class="method-name">VerifyAddQuantityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.MyAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyAccountRegister">
+                  </a> <!-- MyAccountRegister -->
+                  <span class="method-name">MyAccountRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.VerifyHomePageTitleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHomePageTitle">
+                  </a> <!-- VerifyHomePageTitle -->
+                  <span class="method-name">VerifyHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch">
+                  </a> <!-- verifyProductSearch -->
+                  <span class="method-name">verifyProductSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.SigninAccountScrollTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInTest">
+                  </a> <!-- signInTest -->
+                  <span class="method-name">signInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSearch">
+                  </a> <!-- verifyProductSearch -->
+                  <span class="method-name">verifyProductSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.hackathon2.tests.SigninAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInTest">
+                  </a> <!-- signInTest -->
+                  <span class="method-name">signInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">H:\Softwares\Workspaces\Hackathon2\Hackathonselenium2\com.selenium.hackathon2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.selenium.hackthon2.Listener.ListenerTest&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.SigninAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.MyAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.VerifyHomePageTitleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.CeilingPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test5&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.SearchProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test5 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test6&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.LiveChatTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test6 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test7&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.RemoveProductFromCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test7 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test8&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.CouponCodeApplyTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test8 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test9&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.SigninAccountScrollTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test9 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test10&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test10 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test11&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.ZipCodeApplyTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test11 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test12&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.AddQuantityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test12 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test13&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.AccountLogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test13 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test14&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hackathon2.tests.VerifyHomePageLogoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test14 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test6 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test7 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test8 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test9 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test10 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test11 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test12 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test13 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test14 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CeilingPageTest1')
+data.setCell(0, 2, 'com.selenium.hackathon2.tests.CeilingPageTest')
+data.setCell(0, 3, 91928);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyProductSearch')
+data.setCell(1, 2, 'com.selenium.hackathon2.tests.SearchProductTest')
+data.setCell(1, 3, 43058);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyProductSearch')
+data.setCell(2, 2, 'com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest')
+data.setCell(2, 3, 35521);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyAddQuantityTest')
+data.setCell(3, 2, 'com.selenium.hackathon2.tests.AddQuantityTest')
+data.setCell(3, 3, 26031);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signInTest')
+data.setCell(4, 2, 'com.selenium.hackathon2.tests.AccountLogoutTest')
+data.setCell(4, 3, 24549);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'signInTest')
+data.setCell(5, 2, 'com.selenium.hackathon2.tests.SigninAccountScrollTest')
+data.setCell(5, 3, 23637);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyApplyCouponCode')
+data.setCell(6, 2, 'com.selenium.hackathon2.tests.CouponCodeApplyTest')
+data.setCell(6, 3, 15814);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyZipCodeApply')
+data.setCell(7, 2, 'com.selenium.hackathon2.tests.ZipCodeApplyTest')
+data.setCell(7, 3, 12608);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LiveChatwithInValidCredentials')
+data.setCell(8, 2, 'com.selenium.hackathon2.tests.LiveChatTest')
+data.setCell(8, 3, 10721);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CeilingPageTest2')
+data.setCell(9, 2, 'com.selenium.hackathon2.tests.CeilingPageTest')
+data.setCell(9, 3, 10118);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CeilingPageTest4')
+data.setCell(10, 2, 'com.selenium.hackathon2.tests.CeilingPageTest')
+data.setCell(10, 3, 10114);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'CeilingPageTest3')
+data.setCell(11, 2, 'com.selenium.hackathon2.tests.CeilingPageTest')
+data.setCell(11, 3, 10035);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'MyAccountRegister')
+data.setCell(12, 2, 'com.selenium.hackathon2.tests.MyAccountTest')
+data.setCell(12, 3, 9455);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'signInTest')
+data.setCell(13, 2, 'com.selenium.hackathon2.tests.SigninAccountTest')
+data.setCell(13, 3, 6335);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifyHomePageTitle')
+data.setCell(14, 2, 'com.selenium.hackathon2.tests.VerifyHomePageTitleTest')
+data.setCell(14, 3, 6314);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyRemoveProductFromCart')
+data.setCell(15, 2, 'com.selenium.hackathon2.tests.RemoveProductFromCartTest')
+data.setCell(15, 3, 6251);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyHomePageTitle')
+data.setCell(16, 2, 'com.selenium.hackathon2.tests.VerifyHomePageLogoTest')
+data.setCell(16, 3, 1379);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'LiveChatwithValidCredentials')
+data.setCell(17, 2, 'com.selenium.hackathon2.tests.LiveChatTest')
+data.setCell(17, 3, 26);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.VerifyHomePageLogoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.SigninAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">signInTest</span>
+                <span class="method-start">31908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">38255 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.MyAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">38958 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">MyAccountRegister</span>
+                <span class="method-start">96174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">105630 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.VerifyHomePageTitleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">109929 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">VerifyHomePageTitle</span>
+                <span class="method-start">137350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">143667 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.CeilingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">144227 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CeilingPageTest1</span>
+                <span class="method-start">191882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CeilingPageTest2</span>
+                <span class="method-start">283812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CeilingPageTest3</span>
+                <span class="method-start">293987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CeilingPageTest4</span>
+                <span class="method-start">304025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">314142 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">318464 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearch</span>
+                <span class="method-start">363061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">406121 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.LiveChatTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">406760 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LiveChatwithInValidCredentials</span>
+                <span class="method-start">450951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LiveChatwithValidCredentials</span>
+                <span class="method-start">461675 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">461704 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.RemoveProductFromCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">462254 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyRemoveProductFromCart</span>
+                <span class="method-start">502876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">509129 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.CouponCodeApplyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">509771 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyApplyCouponCode</span>
+                <span class="method-start">526386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">542203 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.SigninAccountScrollTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">542753 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">signInTest</span>
+                <span class="method-start">560226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">583865 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">584652 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSearch</span>
+                <span class="method-start">621719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">657242 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.ZipCodeApplyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">661526 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyZipCodeApply</span>
+                <span class="method-start">676972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">689586 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.AddQuantityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">690198 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddQuantityTest</span>
+                <span class="method-start">715702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">741734 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.AccountLogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">742165 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">signInTest</span>
+                <span class="method-start">768414 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">792964 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hackathon2.tests.VerifyHomePageLogoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openDriver</span>
+                <span class="method-start">793473 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">VerifyHomePageTitle</span>
+                <span class="method-start">829442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">830822 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">835033 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

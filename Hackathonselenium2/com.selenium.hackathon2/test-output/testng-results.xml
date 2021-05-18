@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="10" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-18T20:38:46 IST" name="Suite" finished-at="2021-05-18T20:52:41 IST" duration-ms="834873">
+    <groups>
+    </groups>
+    <test started-at="2021-05-18T20:38:46 IST" name="Test1" finished-at="2021-05-18T20:39:25 IST" duration-ms="38724">
+      <class name="com.selenium.hackathon2.tests.SigninAccountTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.SigninAccountTest@1a6d8329]" started-at="2021-05-18T20:38:46 IST" name="openDriver" finished-at="2021-05-18T20:39:18 IST" duration-ms="31721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="signInTest()[pri:0, instance:com.selenium.hackathon2.tests.SigninAccountTest@1a6d8329]" started-at="2021-05-18T20:39:18 IST" name="signInTest" finished-at="2021-05-18T20:39:24 IST" duration-ms="6335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.SigninAccountTest@1a6d8329]" started-at="2021-05-18T20:39:24 IST" name="closeDriver" finished-at="2021-05-18T20:39:25 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.SigninAccountTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-05-18T20:39:25 IST" name="Test2" finished-at="2021-05-18T20:40:36 IST" duration-ms="70965">
+      <class name="com.selenium.hackathon2.tests.MyAccountTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.MyAccountTest@117159c0]" started-at="2021-05-18T20:39:25 IST" name="openDriver" finished-at="2021-05-18T20:40:22 IST" duration-ms="57215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="MyAccountRegister()[pri:0, instance:com.selenium.hackathon2.tests.MyAccountTest@117159c0]" started-at="2021-05-18T20:40:22 IST" name="MyAccountRegister" finished-at="2021-05-18T20:40:32 IST" duration-ms="9455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAccountRegister -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.MyAccountTest@117159c0]" started-at="2021-05-18T20:40:32 IST" name="closeDriver" finished-at="2021-05-18T20:40:36 IST" duration-ms="4292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.MyAccountTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-05-18T20:40:36 IST" name="Test3" finished-at="2021-05-18T20:41:10 IST" duration-ms="34261">
+      <class name="com.selenium.hackathon2.tests.VerifyHomePageTitleTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.VerifyHomePageTitleTest@60957c0f]" started-at="2021-05-18T20:40:36 IST" name="openDriver" finished-at="2021-05-18T20:41:03 IST" duration-ms="27420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="VerifyHomePageTitle()[pri:0, instance:com.selenium.hackathon2.tests.VerifyHomePageTitleTest@60957c0f]" started-at="2021-05-18T20:41:03 IST" name="VerifyHomePageTitle" finished-at="2021-05-18T20:41:10 IST" duration-ms="6314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitle -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.VerifyHomePageTitleTest@60957c0f]" started-at="2021-05-18T20:41:10 IST" name="closeDriver" finished-at="2021-05-18T20:41:10 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.VerifyHomePageTitleTest -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-05-18T20:41:10 IST" name="Test4" finished-at="2021-05-18T20:44:04 IST" duration-ms="174158">
+      <class name="com.selenium.hackathon2.tests.CeilingPageTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.CeilingPageTest@681a8b4e]" started-at="2021-05-18T20:41:10 IST" name="openDriver" finished-at="2021-05-18T20:41:58 IST" duration-ms="47653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="CeilingPageTest1()[pri:0, instance:com.selenium.hackathon2.tests.CeilingPageTest@681a8b4e]" started-at="2021-05-18T20:41:58 IST" name="CeilingPageTest1" finished-at="2021-05-18T20:43:30 IST" duration-ms="91928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CeilingPageTest1 -->
+        <test-method signature="CeilingPageTest2()[pri:1, instance:com.selenium.hackathon2.tests.CeilingPageTest@681a8b4e]" started-at="2021-05-18T20:43:30 IST" name="CeilingPageTest2" finished-at="2021-05-18T20:43:40 IST" duration-ms="10118" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ltkpopup-close-button"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551d58fa7689d6d06f96259dc7a6f7b8
+*** Element info: {Using=xpath, value=//*[@id="ltkpopup-close-button"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ltkpopup-close-button"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551d58fa7689d6d06f96259dc7a6f7b8
+*** Element info: {Using=xpath, value=//*[@id="ltkpopup-close-button"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.selenium.hackathon2.pages.SigninAccountPage.closeAdvertiseWindow(SigninAccountPage.java:14)
+at com.selenium.hackathon2.tests.SigninAccountUtil.signInFunctionality(SigninAccountUtil.java:15)
+at com.selenium.hackathon2.tests.CeilingPageTest.CeilingPageTest2(CeilingPageTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CeilingPageTest2 -->
+        <test-method signature="CeilingPageTest3()[pri:2, instance:com.selenium.hackathon2.tests.CeilingPageTest@681a8b4e]" started-at="2021-05-18T20:43:40 IST" name="CeilingPageTest3" finished-at="2021-05-18T20:43:50 IST" duration-ms="10035" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ltkpopup-close-button"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551d58fa7689d6d06f96259dc7a6f7b8
+*** Element info: {Using=xpath, value=//*[@id="ltkpopup-close-button"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ltkpopup-close-button"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551d58fa7689d6d06f96259dc7a6f7b8
+*** Element info: {Using=xpath, value=//*[@id="ltkpopup-close-button"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.selenium.hackathon2.pages.SigninAccountPage.closeAdvertiseWindow(SigninAccountPage.java:14)
+at com.selenium.hackathon2.tests.SigninAccountUtil.signInFunctionality(SigninAccountUtil.java:15)
+at com.selenium.hackathon2.tests.CeilingPageTest.CeilingPageTest3(CeilingPageTest.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CeilingPageTest3 -->
+        <test-method signature="CeilingPageTest4()[pri:3, instance:com.selenium.hackathon2.tests.CeilingPageTest@681a8b4e]" started-at="2021-05-18T20:43:50 IST" name="CeilingPageTest4" finished-at="2021-05-18T20:44:00 IST" duration-ms="10114" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ltkpopup-close-button"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551d58fa7689d6d06f96259dc7a6f7b8
+*** Element info: {Using=xpath, value=//*[@id="ltkpopup-close-button"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ltkpopup-close-button"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 551d58fa7689d6d06f96259dc7a6f7b8
+*** Element info: {Using=xpath, value=//*[@id="ltkpopup-close-button"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.selenium.hackathon2.pages.SigninAccountPage.closeAdvertiseWindow(SigninAccountPage.java:14)
+at com.selenium.hackathon2.tests.SigninAccountUtil.signInFunctionality(SigninAccountUtil.java:15)
+at com.selenium.hackathon2.tests.CeilingPageTest.CeilingPageTest4(CeilingPageTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CeilingPageTest4 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.CeilingPageTest@681a8b4e]" started-at="2021-05-18T20:44:00 IST" name="closeDriver" finished-at="2021-05-18T20:44:04 IST" duration-ms="4241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.CeilingPageTest -->
+    </test> <!-- Test4 -->
+    <test started-at="2021-05-18T20:44:05 IST" name="Test5" finished-at="2021-05-18T20:45:33 IST" duration-ms="88236">
+      <class name="com.selenium.hackathon2.tests.SearchProductTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.SearchProductTest@4c2cc639]" started-at="2021-05-18T20:44:05 IST" name="openDriver" finished-at="2021-05-18T20:44:49 IST" duration-ms="44597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="verifyProductSearch()[pri:0, instance:com.selenium.hackathon2.tests.SearchProductTest@4c2cc639]" started-at="2021-05-18T20:44:49 IST" name="verifyProductSearch" finished-at="2021-05-18T20:45:32 IST" duration-ms="43058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearch -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.SearchProductTest@4c2cc639]" started-at="2021-05-18T20:45:32 IST" name="closeDriver" finished-at="2021-05-18T20:45:33 IST" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.SearchProductTest -->
+    </test> <!-- Test5 -->
+    <test started-at="2021-05-18T20:45:33 IST" name="Test6" finished-at="2021-05-18T20:46:28 IST" duration-ms="55467">
+      <class name="com.selenium.hackathon2.tests.LiveChatTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.LiveChatTest@35e5d0e5]" started-at="2021-05-18T20:45:33 IST" name="openDriver" finished-at="2021-05-18T20:46:17 IST" duration-ms="44191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="LiveChatwithInValidCredentials()[pri:0, instance:com.selenium.hackathon2.tests.LiveChatTest@35e5d0e5]" started-at="2021-05-18T20:46:17 IST" name="LiveChatwithInValidCredentials" finished-at="2021-05-18T20:46:28 IST" duration-ms="10721" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="LPMlabel"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb0c7a772e5bcf0d617e1d15dd43d99
+*** Element info: {Using=xpath, value=//*[@class="LPMlabel"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="LPMlabel"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb0c7a772e5bcf0d617e1d15dd43d99
+*** Element info: {Using=xpath, value=//*[@class="LPMlabel"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.selenium.hackathon2.pages.LiveChatPage.clickOnLiveChat(LiveChatPage.java:19)
+at com.selenium.hackathon2.tests.LiveChatTest.LiveChatwithInValidCredentials(LiveChatTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiveChatwithInValidCredentials -->
+        <test-method signature="LiveChatwithValidCredentials()[pri:0, instance:com.selenium.hackathon2.tests.LiveChatTest@35e5d0e5]" started-at="2021-05-18T20:46:28 IST" name="LiveChatwithValidCredentials" finished-at="2021-05-18T20:46:28 IST" duration-ms="26" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ltkpopup-close-button"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb0c7a772e5bcf0d617e1d15dd43d99
+*** Element info: {Using=xpath, value=//*[@id="ltkpopup-close-button"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ltkpopup-close-button"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbb0c7a772e5bcf0d617e1d15dd43d99
+*** Element info: {Using=xpath, value=//*[@id="ltkpopup-close-button"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.selenium.hackathon2.pages.LiveChatPage.closeAdvertiseWindow(LiveChatPage.java:15)
+at com.selenium.hackathon2.tests.LiveChatTest.LiveChatwithValidCredentials(LiveChatTest.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiveChatwithValidCredentials -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.LiveChatTest@35e5d0e5]" started-at="2021-05-18T20:46:28 IST" name="closeDriver" finished-at="2021-05-18T20:46:28 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.LiveChatTest -->
+    </test> <!-- Test6 -->
+    <test started-at="2021-05-18T20:46:28 IST" name="Test7" finished-at="2021-05-18T20:47:16 IST" duration-ms="47437">
+      <class name="com.selenium.hackathon2.tests.RemoveProductFromCartTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.RemoveProductFromCartTest@1a9c38eb]" started-at="2021-05-18T20:46:28 IST" name="openDriver" finished-at="2021-05-18T20:47:09 IST" duration-ms="40621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="VerifyRemoveProductFromCart()[pri:0, instance:com.selenium.hackathon2.tests.RemoveProductFromCartTest@1a9c38eb]" started-at="2021-05-18T20:47:09 IST" name="VerifyRemoveProductFromCart" finished-at="2021-05-18T20:47:15 IST" duration-ms="6251" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="dwfrm_login_username"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 677e5fda708859c2078a02a91d79a6b3
+*** Element info: {Using=xpath, value=//*[@id="dwfrm_login_username"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="dwfrm_login_username"]"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 677e5fda708859c2078a02a91d79a6b3
+*** Element info: {Using=xpath, value=//*[@id="dwfrm_login_username"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.selenium.hackathon2.pages.SigninAccountPage.enterEmail(SigninAccountPage.java:22)
+at com.selenium.hackathon2.tests.SigninAccountUtil.signInFunctionality(SigninAccountUtil.java:19)
+at com.selenium.hackathon2.tests.RemoveProductFromCartTest.VerifyRemoveProductFromCart(RemoveProductFromCartTest.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRemoveProductFromCart -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.RemoveProductFromCartTest@1a9c38eb]" started-at="2021-05-18T20:47:15 IST" name="closeDriver" finished-at="2021-05-18T20:47:16 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.RemoveProductFromCartTest -->
+    </test> <!-- Test7 -->
+    <test started-at="2021-05-18T20:47:16 IST" name="Test8" finished-at="2021-05-18T20:47:49 IST" duration-ms="32968">
+      <class name="com.selenium.hackathon2.tests.CouponCodeApplyTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.CouponCodeApplyTest@37ddb69a]" started-at="2021-05-18T20:47:16 IST" name="openDriver" finished-at="2021-05-18T20:47:32 IST" duration-ms="16615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="VerifyApplyCouponCode()[pri:0, instance:com.selenium.hackathon2.tests.CouponCodeApplyTest@37ddb69a]" started-at="2021-05-18T20:47:32 IST" name="VerifyApplyCouponCode" finished-at="2021-05-18T20:47:48 IST" duration-ms="15814" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 877624aad5d0fb612c3cfafc6d44c7f7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 877624aad5d0fb612c3cfafc6d44c7f7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.selenium.hackathon2.pages.HomePage.clickOnViewCart(HomePage.java:30)
+at com.selenium.hackathon2.tests.CouponCodeApplyTest.VerifyApplyCouponCode(CouponCodeApplyTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplyCouponCode -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.CouponCodeApplyTest@37ddb69a]" started-at="2021-05-18T20:47:48 IST" name="closeDriver" finished-at="2021-05-18T20:47:49 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.CouponCodeApplyTest -->
+    </test> <!-- Test8 -->
+    <test started-at="2021-05-18T20:47:49 IST" name="Test9" finished-at="2021-05-18T20:48:31 IST" duration-ms="41816">
+      <class name="com.selenium.hackathon2.tests.SigninAccountScrollTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.SigninAccountScrollTest@395b56bb]" started-at="2021-05-18T20:47:49 IST" name="openDriver" finished-at="2021-05-18T20:48:06 IST" duration-ms="17472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="signInTest()[pri:0, instance:com.selenium.hackathon2.tests.SigninAccountScrollTest@395b56bb]" started-at="2021-05-18T20:48:06 IST" name="signInTest" finished-at="2021-05-18T20:48:30 IST" duration-ms="23637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.SigninAccountScrollTest@395b56bb]" started-at="2021-05-18T20:48:30 IST" name="closeDriver" finished-at="2021-05-18T20:48:31 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.SigninAccountScrollTest -->
+    </test> <!-- Test9 -->
+    <test started-at="2021-05-18T20:48:31 IST" name="Test10" finished-at="2021-05-18T20:49:48 IST" duration-ms="76861">
+      <class name="com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest@68ad99fe]" started-at="2021-05-18T20:48:31 IST" name="openDriver" finished-at="2021-05-18T20:49:08 IST" duration-ms="37066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="verifyProductSearch()[pri:0, instance:com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest@68ad99fe]" started-at="2021-05-18T20:49:08 IST" name="verifyProductSearch" finished-at="2021-05-18T20:49:43 IST" duration-ms="35521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearch -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest@68ad99fe]" started-at="2021-05-18T20:49:43 IST" name="closeDriver" finished-at="2021-05-18T20:49:48 IST" duration-ms="4269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.SearchProductBacktoHomePageTest -->
+    </test> <!-- Test10 -->
+    <test started-at="2021-05-18T20:49:48 IST" name="Test11" finished-at="2021-05-18T20:50:16 IST" duration-ms="28637">
+      <class name="com.selenium.hackathon2.tests.ZipCodeApplyTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.ZipCodeApplyTest@14dda234]" started-at="2021-05-18T20:49:48 IST" name="openDriver" finished-at="2021-05-18T20:50:03 IST" duration-ms="15446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="VerifyZipCodeApply()[pri:0, instance:com.selenium.hackathon2.tests.ZipCodeApplyTest@14dda234]" started-at="2021-05-18T20:50:03 IST" name="VerifyZipCodeApply" finished-at="2021-05-18T20:50:16 IST" duration-ms="12608" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a id="mcBookMark" name="mcBookMark" href="https://www.ylighting.com/cart" title="View Cart">...</a> is not clickable at point (1349, 119). Other element would receive the click: <div class="ui-widget-overlay ui-front" style="z-index: 990;"></div>
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5572a9684f76a4de2223416822b86e80]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a id="mcBookMark" name="mcBookMark" href="https://www.ylighting.com/cart" title="View Cart">...</a> is not clickable at point (1349, 119). Other element would receive the click: <div class="ui-widget-overlay ui-front" style="z-index: 990;"></div>
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VISHWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5572a9684f76a4de2223416822b86e80
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.selenium.hackathon2.pages.HomePage.clickOnViewCart(HomePage.java:30)
+at com.selenium.hackathon2.tests.ZipCodeApplyTest.VerifyZipCodeApply(ZipCodeApplyTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyZipCodeApply -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.ZipCodeApplyTest@14dda234]" started-at="2021-05-18T20:50:16 IST" name="closeDriver" finished-at="2021-05-18T20:50:16 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.ZipCodeApplyTest -->
+    </test> <!-- Test11 -->
+    <test started-at="2021-05-18T20:50:16 IST" name="Test12" finished-at="2021-05-18T20:51:08 IST" duration-ms="51957">
+      <class name="com.selenium.hackathon2.tests.AddQuantityTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.AddQuantityTest@4e70a728]" started-at="2021-05-18T20:50:16 IST" name="openDriver" finished-at="2021-05-18T20:50:42 IST" duration-ms="25504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="VerifyAddQuantityTest()[pri:0, instance:com.selenium.hackathon2.tests.AddQuantityTest@4e70a728]" started-at="2021-05-18T20:50:42 IST" name="VerifyAddQuantityTest" finished-at="2021-05-18T20:51:08 IST" duration-ms="26031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddQuantityTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.AddQuantityTest@4e70a728]" started-at="2021-05-18T20:51:08 IST" name="closeDriver" finished-at="2021-05-18T20:51:08 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.AddQuantityTest -->
+    </test> <!-- Test12 -->
+    <test started-at="2021-05-18T20:51:08 IST" name="Test13" finished-at="2021-05-18T20:52:00 IST" duration-ms="51262">
+      <class name="com.selenium.hackathon2.tests.AccountLogoutTest">
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.AccountLogoutTest@32c8e539]" started-at="2021-05-18T20:51:08 IST" name="openDriver" finished-at="2021-05-18T20:51:34 IST" duration-ms="26249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="signInTest()[pri:0, instance:com.selenium.hackathon2.tests.AccountLogoutTest@32c8e539]" started-at="2021-05-18T20:51:34 IST" name="signInTest" finished-at="2021-05-18T20:51:59 IST" duration-ms="24549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.AccountLogoutTest@32c8e539]" started-at="2021-05-18T20:51:59 IST" name="closeDriver" finished-at="2021-05-18T20:52:00 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.selenium.hackathon2.tests.AccountLogoutTest -->
+    </test> <!-- Test13 -->
+    <test started-at="2021-05-18T20:52:00 IST" name="Test14" finished-at="2021-05-18T20:52:41 IST" duration-ms="41549">
+      <class name="com.selenium.hackathon2.tests.VerifyHomePageLogoTest">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.selenium.hackathon2.tests.VerifyHomePageLogoTest@3f07b12c]" started-at="2021-05-18T20:38:46 IST" name="startTest" finished-at="2021-05-18T20:38:46 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="openDriver()[pri:0, instance:com.selenium.hackathon2.tests.VerifyHomePageLogoTest@3f07b12c]" started-at="2021-05-18T20:52:00 IST" name="openDriver" finished-at="2021-05-18T20:52:36 IST" duration-ms="35968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="VerifyHomePageTitle()[pri:0, instance:com.selenium.hackathon2.tests.VerifyHomePageLogoTest@3f07b12c]" started-at="2021-05-18T20:52:36 IST" name="VerifyHomePageTitle" finished-at="2021-05-18T20:52:37 IST" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitle -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.selenium.hackathon2.tests.VerifyHomePageLogoTest@3f07b12c]" started-at="2021-05-18T20:52:37 IST" name="closeDriver" finished-at="2021-05-18T20:52:41 IST" duration-ms="4199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.selenium.hackathon2.tests.VerifyHomePageLogoTest@3f07b12c]" started-at="2021-05-18T20:52:41 IST" name="endTest" finished-at="2021-05-18T20:52:42 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.selenium.hackathon2.tests.VerifyHomePageLogoTest -->
+    </test> <!-- Test14 -->
+  </suite> <!-- Suite -->
+</testng-results>
