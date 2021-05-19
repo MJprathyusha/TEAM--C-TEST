@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.Listeners.Listener"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.website.testcases.TC_CreateAcc"/>
+       <class name="com.website.testcases.TC_Verify_Title"/>
+       <class name="com.website.testcases.TC_Apply_Filter_select_product"/>
+       <class name="com.website.testcases.TC_Add_To_cart"/>
+       <class name="com.website.testcases.TC_View_cart"/>
+       <class name="com.website.testcases.TC_Livechat_invalid_credentials"/>
+       <class name="com.website.testcases.TC_Zip_code"/>
+       <class name="com.website.testcases.TC_search_product"/>
+       <class name="com.website.testcases.TC_Scroll_up_down"/>
+       <class name="com.website.testcases.TC_Verify_Home"/>
+       <class name="com.website.testcases.TC_Logout"/>
+       <class name="com.website.testcases.TC_Logo"/>
+       <class name="com.website.testcases.TC_search_product"/>
+       <class name="com.website.testcases.TC_Remove"/>
+       <class name="com.website.testcases.TC_Inc_Quantity"/>
+       <class name="com.website.testcases.TC_Apply_code"/>
+       <class name="com.website.testcases.TC_Select_Ceiling"/>
+      <class name="com.website.testcases.TC_Signin_YLighting"/>
+     <class name="com.website.testcases.TC_LiveChat"/>
+    
+   
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
