@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.Listeners.Listener" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.website.testcases.TC_create" />
+			<class name="com.website.testcases.TC_Signin_YLighting" />
+			<class name="com.website.testcases.TC_ScrollUp_Down" />
+			<class name="com.website.testcases.TC_search_product" />
+			<class name="com.website.testcases.TC_VerifyHome" />
+			<class name="com.website.testcases.TC_CeilingLights" />
+			<class name="com.website.testcases.TC_VerfiyTitle" />
+			<class name="com.website.testcases.TC_LiveChat" />
+			<class name="com.website.testcases.TC_LiveChatinvalid" />
+			<class name="com.website.testcases.TC_Logout" />
+			<class name="com.website.testcases.TC_Logo" />
+			<class name="com.website.testcases.TC_ApplyFilter" />
+			<class name="com.website.testcases.TC_AddtoCart" />
+			<class name="com.website.testcases.TC_Viewcart" />
+			<class name="com.website.testcases.TC_RemoveCart" />
+			<class name="com.website.testcases.TC_ZipCode" />
+			<class name="com.website.testcases.TC_VerifyQuantity" />
+			<class name="com.website.testcases.TC_CouponCode" />
+
+
+
+
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
