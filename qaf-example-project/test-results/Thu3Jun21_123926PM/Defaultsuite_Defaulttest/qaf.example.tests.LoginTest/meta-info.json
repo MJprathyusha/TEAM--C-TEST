@@ -1,0 +1,41 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "firstName": "Uma",
+          "lastName": "Maheswari",
+          "email": "umavishwa1995@gmail.com",
+          "telephone": 8919022031,
+          "password": "Blackberry@123",
+          "passwordConfirm": "Blackberry@123",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "dataFile": "TestData/UserData.xls",
+        "description": "CreateAccount Test Scenario",
+        "filter": "",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "LoginFunctionalityTest",
+        "resultFileName": "LoginFunctionalityTest",
+        "sheetName": "UserDetails",
+        "sign": "LoginTest.LoginFunctionalityTest(java.util.Map)[pri:0, instance:qaf.example.tests.LoginTest@1e636ea3]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1622704166596,
+      "duration": 11170,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

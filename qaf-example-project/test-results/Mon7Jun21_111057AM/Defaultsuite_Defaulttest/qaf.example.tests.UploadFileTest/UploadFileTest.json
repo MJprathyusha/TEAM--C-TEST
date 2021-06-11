@@ -1,0 +1,174 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://demo.opencart.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://demo.opencart.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4069
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "mouseOver",
+      "args": [
+        "[components]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=product/category&path=25'], using=xpath}"
+          ],
+          "result": "id: 0.14021622378204301-1",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=product/category&path=25']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.14021622378204301-1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 98
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[monitor]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=product/category&path=25_28'], using=xpath}"
+          ],
+          "result": "id: 0.14021622378204301-2",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=product/category&path=25_28']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=product/category&path=25_28']",
+            "{\"id\":\"0.14021622378204301-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1952
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[applecinema30]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=product/product&path=25_28&product_id=42'], using=xpath}"
+          ],
+          "result": "id: 0.814234575994663-1",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=product/product&path=25_28&product_id=42']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=product/product&path=25_28&product_id=42']",
+            "{\"id\":\"0.814234575994663-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 4068
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://demo.opencart.com/'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 7975,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "mouse move on 'components'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 150,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'monitor'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1978,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'applecinema30'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4099,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

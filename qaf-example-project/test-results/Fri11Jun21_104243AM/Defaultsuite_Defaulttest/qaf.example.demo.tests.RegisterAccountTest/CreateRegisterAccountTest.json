@@ -1,0 +1,681 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://demo.qloapps.com/en/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://demo.qloapps.com/en/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4299
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "maximizeCurrentWindow",
+      "args": [
+        "{}"
+      ],
+      "result": "{width=1552, x=-8, y=-8, height=840}",
+      "subLogs": [],
+      "duration": 173
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_sign_in]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Sign in, using=link text}"
+          ],
+          "result": "id: 0.502324810162655-1",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.linkText: Sign in",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.linkText: Sign in",
+            "{\"id\":\"0.502324810162655-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3348
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[test9@gmail.com111, qlo_inputemail]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='email_create'], using=xpath}"
+          ],
+          "result": "id: 0.1383490156115248-1",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='email_create']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='email_create']",
+            "{\"value\":[\"test9@gmail.com111\"],\"id\":\"0.1383490156115248-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 113
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_createaccount]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=SubmitCreate, using=id}"
+          ],
+          "result": "id: 0.1383490156115248-3",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: SubmitCreate",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: SubmitCreate",
+            "{\"id\":\"0.1383490156115248-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 75
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_input_radio]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='id_gender2'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='id_gender2']\"}\n  (Session info: chrome=91.0.4472.77)\n  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54315}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\\Users\\VISHWA~1\\AppData\\Local\\Temp\\scoped_dir9928_166815689}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 592c685062ebafc0884cd0eeb1d188ec\n*** Element info: {Using=xpath, value=//*[@id='id_gender2']}",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='id_gender2'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='id_gender2']\"}\n  (Session info: chrome=91.0.4472.77)\n  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54315}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\\Users\\VISHWA~1\\AppData\\Local\\Temp\\scoped_dir9928_166815689}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 592c685062ebafc0884cd0eeb1d188ec\n*** Element info: {Using=xpath, value=//*[@id='id_gender2']}",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='id_gender2'], using=xpath}"
+          ],
+          "result": "id: 0.1383490156115248-4",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='id_gender2']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='id_gender2']",
+            "{\"id\":\"0.1383490156115248-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 75
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Uma, qlo_firstname]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='customer_firstname'], using=xpath}"
+          ],
+          "result": "id: 0.1383490156115248-5",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='customer_firstname']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='customer_firstname']",
+            "{\"value\":[\"Uma\"],\"id\":\"0.1383490156115248-5\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 113
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Maheswari, qlo_lastname]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='customer_lastname'], using=xpath}"
+          ],
+          "result": "id: 0.1383490156115248-6",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='customer_lastname']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='customer_lastname']",
+            "{\"value\":[\"Maheswari\"],\"id\":\"0.1383490156115248-6\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 171
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Test@2021, qlo_password]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='passwd'], using=xpath}"
+          ],
+          "result": "id: 0.1383490156115248-7",
+          "subLogs": [],
+          "duration": 94
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='passwd']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='passwd']",
+            "{\"value\":[\"Test@2021\"],\"id\":\"0.1383490156115248-7\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 157
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='days'], using=xpath}"
+      ],
+      "result": "id: 0.1383490156115248-8",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@id='days']",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@id='days']",
+        "{\"value\":[\"1  \"],\"id\":\"0.1383490156115248-8\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 89
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='months'], using=xpath}"
+      ],
+      "result": "id: 0.1383490156115248-9",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@id='months']",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@id='months']",
+        "{\"value\":[\"January \"],\"id\":\"0.1383490156115248-9\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 92
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='years'], using=xpath}"
+      ],
+      "result": "id: 0.1383490156115248-10",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@id='years']",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@id='years']",
+        "{\"value\":[\"2021  \"],\"id\":\"0.1383490156115248-10\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 83
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_click_register]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='submitAccount'], using=xpath}"
+          ],
+          "result": "id: 0.1383490156115248-11",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@name='submitAccount']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@name='submitAccount']",
+            "{\"id\":\"0.1383490156115248-11\"}"
+          ],
+          "result": "element click intercepted: Element <button type=\"submit\" name=\"submitAccount\" id=\"submitAccount\" class=\"btn button button-medium\">...</button> is not clickable at point (262, 692). Other element would receive the click: <p style=\"margin: 0px;\">...</p>\n  (Session info: chrome=91.0.4472.77)\n  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.06 seconds\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54315}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\\Users\\VISHWA~1\\AppData\\Local\\Temp\\scoped_dir9928_166815689}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 592c685062ebafc0884cd0eeb1d188ec",
+          "subLogs": [],
+          "duration": 1065
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='submitAccount'], using=xpath}"
+          ],
+          "result": "[id: 0.1383490156115248-11]",
+          "subLogs": [],
+          "duration": 21
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='center_column']/p[1], using=xpath}"
+      ],
+      "result": "id: 0.04493340190738149-1",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@id='center_column']/p[1]",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //*[@id='center_column']/p[1]",
+        "{\"id\":\"0.04493340190738149-1\"}"
+      ],
+      "result": "getElementText:Your account has been created.",
+      "subLogs": [],
+      "duration": 74
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_options]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='user_info_acc']/span[1], using=xpath}"
+          ],
+          "result": "id: 0.04493340190738149-2",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='user_info_acc']/span[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='user_info_acc']/span[1]",
+            "{\"id\":\"0.04493340190738149-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 76
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_logout]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Logout, using=link text}"
+          ],
+          "result": "id: 0.04493340190738149-3",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.linkText: Logout",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.linkText: Logout",
+            "{\"id\":\"0.04493340190738149-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 4235
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Login - Qlo Reservation System",
+      "subLogs": [],
+      "duration": 12
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://demo.qloapps.com/en/'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 9301,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_sign_in'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3437,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'test9@gmail.com111' into 'qlo_inputemail'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 141,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_createaccount'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 95,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_input_radio'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2146,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Uma' into 'qlo_firstname'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 137,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Maheswari' into 'qlo_lastname'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 212,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Test@2021' into 'qlo_password'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 256,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_click_register'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_options'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 99,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_logout'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4271,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "pass",
+      "type": "Info",
+      "screenshot": "img/CreateRegisterAccountTest_nwgk91q4033n262.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: \"Login - Qlo Reservation System\"\n     Actual: was \"\"",
+      "type": "Fail",
+      "screenshot": "img/CreateRegisterAccountTest_1mj3dve0z50e6263.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

@@ -1,0 +1,222 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://demo.opencart.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://demo.opencart.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 6170
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.myaccount]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=account/account'], using=xpath}"
+          ],
+          "result": "id: 0.5580152520427022-1",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=account/account']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=account/account']",
+            "{\"id\":\"0.5580152520427022-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 66
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.login]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=account/login'], using=xpath}"
+          ],
+          "result": "id: 0.5580152520427022-2",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=account/login']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=account/login']",
+            "{\"id\":\"0.5580152520427022-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1343
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[umavishwa1995@gmail.com, input.email]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='input-email'], using=xpath}"
+          ],
+          "result": "id: 0.9382806527531744-1",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //input[@id='input-email']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='input-email']",
+            "{\"value\":[\"umavishwa1995@gmail.com\"],\"id\":\"0.9382806527531744-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 214
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.loginsubmit]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@value='Login'], using=xpath}"
+          ],
+          "result": "id: 0.9382806527531744-3",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@value='Login']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@value='Login']",
+            "{\"id\":\"0.9382806527531744-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1433
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://demo.opencart.com/'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 11771,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'button.myaccount'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 114,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'button.login'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1399,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'umavishwa1995@gmail.com' into 'input.email'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 239,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'button.loginsubmit'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1456,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

@@ -1,0 +1,1193 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://demo.qloapps.com/en/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://demo.qloapps.com/en/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4740
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "maximizeCurrentWindow",
+      "args": [
+        "{}"
+      ],
+      "result": "{width=1552, x=-8, y=-8, height=840}",
+      "subLogs": [],
+      "duration": 186
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_threedot]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='header']/div[3]/div/div/div[2]/button, using=xpath}"
+          ],
+          "result": "id: 0.5440500161183626-1",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button",
+            "{\"id\":\"0.5440500161183626-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 69
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_rooms]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='menu_cont']/div/div/div[2]/ul[1]/li[4]/a, using=xpath}"
+          ],
+          "result": "id: 0.5440500161183626-2",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[4]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[4]/a",
+            "{\"id\":\"0.5440500161183626-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 5993
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_booknow]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='hotelRoomsBlock']/div/div[2]/div/div[1]/div[2]/div/div[3]/a/span, using=xpath}"
+          ],
+          "result": "id: 0.25772026320874497-1",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='hotelRoomsBlock']/div/div[2]/div/div[1]/div[2]/div/div[3]/a/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='hotelRoomsBlock']/div/div[2]/div/div[1]/div[2]/div/div[3]/a/span",
+            "{\"id\":\"0.25772026320874497-1\"}"
+          ],
+          "result": "element click intercepted: Element <span>...</span> is not clickable at point (860, 701). Other element would receive the click: <div class=\"row\" id=\"wk-demolinks-container\">...</div>\n  (Session info: chrome=91.0.4472.77)\n  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.07 seconds\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50382}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\\Users\\VISHWA~1\\AppData\\Local\\Temp\\scoped_dir12464_887780553}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: e40d19ea6d53d06ad21f912d58aeeba3",
+          "subLogs": [],
+          "duration": 1068
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@id='hotelRoomsBlock']/div/div[2]/div/div[1]/div[2]/div/div[3]/a/span, using=xpath}"
+          ],
+          "result": "[id: 0.25772026320874497-1]",
+          "subLogs": [],
+          "duration": 18
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-F63A63A08CCF49D736758FFA80B223F8",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getWindowHandles",
+      "args": [
+        "{}"
+      ],
+      "result": "[CDwindow-F63A63A08CCF49D736758FFA80B223F8, CDwindow-72A14453E82AEB6FE3E7B11FA6F2134E]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{handle=CDwindow-F63A63A08CCF49D736758FFA80B223F8}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{handle=CDwindow-72A14453E82AEB6FE3E7B11FA6F2134E}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_checkin]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='room_check_in'], using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-1",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='room_check_in']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='room_check_in']",
+            "{\"id\":\"0.051532088900474005-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 182
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_checkin1]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='ui-datepicker-div']/table/tbody/tr[3]/td[3]/a, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-2",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='ui-datepicker-div']/table/tbody/tr[3]/td[3]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='ui-datepicker-div']/table/tbody/tr[3]/td[3]/a",
+            "{\"id\":\"0.051532088900474005-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 94
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_checkout]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='room_check_out'], using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-3",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='room_check_out']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='room_check_out']",
+            "{\"id\":\"0.051532088900474005-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 61
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_checkout1]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='ui-datepicker-div']/table/tbody/tr[3]/td[5]/a, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-4",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='ui-datepicker-div']/table/tbody/tr[3]/td[5]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='ui-datepicker-div']/table/tbody/tr[3]/td[5]/a",
+            "{\"id\":\"0.051532088900474005-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 49
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyText",
+      "args": [
+        "[qlo_pricecheck, $2,000.00]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "[id: 0.051532088900474005-5]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 42
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 26
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertText",
+      "args": [
+        "[qlo_pricecheck, $2,000.00]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "[id: 0.051532088900474005-5]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p, using=xpath}"
+          ],
+          "result": "id: 0.051532088900474005-5",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/div[2]/div[1]/div/form/div[7]/div[1]/p",
+            "{\"id\":\"0.051532088900474005-5\"}"
+          ],
+          "result": "getElementText:$4,000.00",
+          "subLogs": [],
+          "duration": 13
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://demo.qloapps.com/en/'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 9413,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_threedot'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 139,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_rooms'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6023,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_booknow'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1248,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_checkin'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 239,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_checkin1'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 121,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_checkout'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 82,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_checkout1'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 71,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "verify 'qlo_pricecheck' text is '$2,000.00'",
+      "type": "TestStepFail",
+      "screenshot": null,
+      "duration": 11121,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected check price text should be $2,000.00 : Actual check price text is $4,000.00",
+          "type": "Fail",
+          "screenshot": "img/BookingTestfunctionality_9dpp4yk1mya446540.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "assert 'qlo_pricecheck' text is '$2,000.00'",
+      "type": "TestStepFail",
+      "screenshot": "img/BookingTestfunctionality_1a98awe7otq5u46542.png",
+      "duration": 10940,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected check price text should be $2,000.00 : Actual check price text is $4,000.00",
+          "type": "Fail",
+          "screenshot": "img/BookingTestfunctionality_1nd2ibcg11k4r46541.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "java.lang.AssertionError",
+          "type": "Fail",
+          "screenshot": null,
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertText(QAFExtendedWebElement.java:1131)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.assertText_aroundBody130(CommonStep.java:1780)\r\n\tat com.qmetry.qaf.automation.step.CommonStep$AjcClosure131.run(CommonStep.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:130)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:80)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.assertText(CommonStep.java:1779)\r\n\tat qaf.example.demo.tests.BookingTest.BookingTestfunctionality(BookingTest.java:54)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:756)\r\n\tat org.testng.TestRunner.run(TestRunner.java:610)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

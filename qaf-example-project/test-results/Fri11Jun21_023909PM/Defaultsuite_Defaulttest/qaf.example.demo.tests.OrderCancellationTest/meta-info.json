@@ -1,0 +1,48 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "firstName": "Uma",
+          "lastName": "Maheswari",
+          "email": "test9@gmail.com",
+          "password": "Test@2021",
+          "company": "HCL",
+          "address1": "dhffgjf",
+          "address2": "wtgdfdh",
+          "city": "NewYork",
+          "Zipcode": "0000010004",
+          "homephone": 9864645392,
+          "mobile": 6746927562,
+          "additional": "Automation test",
+          "future": "My homeaddress",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "dataFile": "TestData/Registration_Details.xls",
+        "description": "Order Cancel Test Scenario",
+        "filter": "",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "ordercancel",
+        "resultFileName": "Ordercancel",
+        "sheetName": "UserDetails",
+        "sign": "OrderCancellationTest.ordercancel(java.util.Map)[pri:0, instance:qaf.example.demo.tests.OrderCancellationTest@497486b3]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1623402549801,
+      "duration": 28712,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

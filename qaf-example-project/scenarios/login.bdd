@@ -1,0 +1,8 @@
+SCENARIO: OpenCart Register
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+
+	Given get '/'
+	When click on 'my account'
+	Then click on 'login'
+
+END

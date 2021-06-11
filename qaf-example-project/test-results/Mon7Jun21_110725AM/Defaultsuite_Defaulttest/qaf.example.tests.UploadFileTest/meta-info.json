@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Upload file Test Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "name": "uploadFileTest",
+        "resultFileName": "UploadFileTest",
+        "sign": "UploadFileTest.uploadFileTest()[pri:0, instance:qaf.example.tests.UploadFileTest@28ec166e]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1623044246115,
+      "duration": 17863,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://demo.qloapps.com/en/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://demo.qloapps.com/en/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 7368
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "maximizeCurrentWindow",
+      "args": [
+        "{}"
+      ],
+      "result": "{width=1552, x=-8, y=-8, height=840}",
+      "subLogs": [],
+      "duration": 173
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_threedot]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='header']/div[3]/div/div/div[2]/button, using=xpath}"
+          ],
+          "result": "id: 0.8244895255133058-1",
+          "subLogs": [],
+          "duration": 45
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button",
+            "{\"id\":\"0.8244895255133058-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 66
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_rooms]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='menu_cont']/div/div/div[2]/ul[1]/li[4]/a, using=xpath}"
+          ],
+          "result": "id: 0.8244895255133058-2",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[4]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[4]/a",
+            "{\"id\":\"0.8244895255133058-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 6316
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[United States, qlo_location]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='hotel_location'], using=xpath}"
+          ],
+          "result": "id: 0.8670231723372746-1",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='hotel_location']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='hotel_location']",
+            "{\"value\":[\"United States\"],\"id\":\"0.8670231723372746-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 198
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_hotel]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='id_hotel_button'], using=xpath}"
+          ],
+          "result": "id: 0.8670231723372746-3",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='id_hotel_button']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='id_hotel_button']",
+            "{\"id\":\"0.8670231723372746-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 88
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_hotel1]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='search_hotel_block_form']/div[2]/div/ul/li[1], using=xpath}"
+          ],
+          "result": "id: 0.8670231723372746-4",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='search_hotel_block_form']/div[2]/div/ul/li[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='search_hotel_block_form']/div[2]/div/ul/li[1]",
+            "{\"id\":\"0.8670231723372746-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 90
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_checkintime]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='check_in_time'], using=xpath}"
+          ],
+          "result": "id: 0.8670231723372746-5",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='check_in_time']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='check_in_time']",
+            "{\"id\":\"0.8670231723372746-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 177
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_checkintime1]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='ui-datepicker-div']/table/tbody/tr[2]/td[5], using=xpath}"
+          ],
+          "result": "id: 0.8670231723372746-6",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='ui-datepicker-div']/table/tbody/tr[2]/td[5]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='ui-datepicker-div']/table/tbody/tr[2]/td[5]",
+            "{\"id\":\"0.8670231723372746-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 106
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_checkouttime]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='check_out_time'], using=xpath}"
+          ],
+          "result": "id: 0.8670231723372746-7",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='check_out_time']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='check_out_time']",
+            "{\"id\":\"0.8670231723372746-7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 86
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_checkouttime1]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='ui-datepicker-div']/table/tbody/tr[2]/td[7], using=xpath}"
+          ],
+          "result": "id: 0.8670231723372746-8",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='ui-datepicker-div']/table/tbody/tr[2]/td[7]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='ui-datepicker-div']/table/tbody/tr[2]/td[7]",
+            "{\"id\":\"0.8670231723372746-8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 56
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_roomsubmit]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='search_room_submit'], using=xpath}"
+          ],
+          "result": "id: 0.8670231723372746-9",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='search_room_submit']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='search_room_submit']",
+            "{\"id\":\"0.8670231723372746-9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 5745
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=1000000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_booknow_rooms]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='category_data_cont']/div[2]/div/div[2]/a, using=xpath}"
+          ],
+          "result": "id: 0.7203403002249651-1",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='category_data_cont']/div[2]/div/div[2]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='category_data_cont']/div[2]/div/div[2]/a",
+            "{\"id\":\"0.7203403002249651-1\"}"
+          ],
+          "result": "element click intercepted: Element is not clickable at point (1255, 732)\n  (Session info: chrome=91.0.4472.77)\n  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.11 seconds\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60518}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\\Users\\VISHWA~1\\AppData\\Local\\Temp\\scoped_dir7728_1097048505}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 96df603c3623f3ef69b65adab46252e4",
+          "subLogs": [],
+          "duration": 1121
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@id='category_data_cont']/div[2]/div/div[2]/a, using=xpath}"
+          ],
+          "result": "[id: 0.7203403002249651-1]",
+          "subLogs": [],
+          "duration": 23
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=4000000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_proceedout_rooms]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='layer_cart']/div[1]/div[2]/div[4]/a/span, using=xpath}"
+          ],
+          "result": "id: 0.7203403002249651-2",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='layer_cart']/div[1]/div[2]/div[4]/a/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='layer_cart']/div[1]/div[2]/div[4]/a/span",
+            "{\"id\":\"0.7203403002249651-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3775
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=4000000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "mouseOver",
+      "args": [
+        "[qlo_itemcart]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='header']/div[3]/div/div/div[4]/div/a, using=xpath}"
+          ],
+          "result": "id: 0.3471896226173805-1",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='header']/div[3]/div/div/div[4]/div/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.3471896226173805-1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 23
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_removeitem]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='collapse-shopping-cart']/div/div[2]/div[1]/div[1]/p[2]/a, using=xpath}"
+          ],
+          "result": "id: 0.3471896226173805-2",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='collapse-shopping-cart']/div/div[2]/div[1]/div[1]/p[2]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='collapse-shopping-cart']/div/div[2]/div[1]/div[1]/p[2]/a",
+            "{\"id\":\"0.3471896226173805-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3383
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='content']/div/p, using=xpath}"
+      ],
+      "result": "id: 0.39162076763961484-1",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@id='content']/div/p",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //*[@id='content']/div/p",
+        "{\"id\":\"0.39162076763961484-1\"}"
+      ],
+      "result": "getElementText:Till now you did not added any room in your cart.",
+      "subLogs": [],
+      "duration": 18
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://demo.qloapps.com/en/'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 12572,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_threedot'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 149,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_rooms'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6356,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'United States' into 'qlo_location'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 224,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_hotel'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 119,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_hotel1'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 118,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_checkintime'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 207,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_checkintime1'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 137,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_checkouttime'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 119,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_checkouttime1'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 89,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_roomsubmit'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5775,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_booknow_rooms'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1247,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_proceedout_rooms'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3792,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "mouse move on 'qlo_itemcart'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 46,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_removeitem'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3401,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: \"Till now you did not added any room in your cart.\"\n     Actual: was \"Till now you did not added any room in your cart.\"",
+      "type": "Pass",
+      "screenshot": "img/Removecart_1jcu3soir4haf55637.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "pass",
+      "type": "Info",
+      "screenshot": "img/Removecart_14tdts5ugu71u55638.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

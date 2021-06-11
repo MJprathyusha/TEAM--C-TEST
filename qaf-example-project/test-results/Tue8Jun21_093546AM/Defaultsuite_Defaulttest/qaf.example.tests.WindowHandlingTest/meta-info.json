@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Windowhandling Test Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "name": "WindowHandlingFunctionality",
+        "resultFileName": "WindowHandlingFunctionality",
+        "sign": "WindowHandlingTest.WindowHandlingFunctionality(java.util.Map)[pri:0, instance:qaf.example.tests.WindowHandlingTest@62727399]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1623125146420,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

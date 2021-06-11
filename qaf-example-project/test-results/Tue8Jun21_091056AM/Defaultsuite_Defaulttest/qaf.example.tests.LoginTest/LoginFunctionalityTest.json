@@ -1,0 +1,557 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://demo.opencart.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://demo.opencart.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9087
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "maximizeCurrentWindow",
+      "args": [
+        "{}"
+      ],
+      "result": "{width=1552, x=-8, y=-8, height=840}",
+      "subLogs": [],
+      "duration": 165
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.myaccount]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=account/account'], using=xpath}"
+          ],
+          "result": "id: 0.019043216952231212-1",
+          "subLogs": [],
+          "duration": 55
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=account/account']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=account/account']",
+            "{\"id\":\"0.019043216952231212-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 87
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.login]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=account/login'], using=xpath}"
+          ],
+          "result": "id: 0.019043216952231212-2",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=account/login']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=account/login']",
+            "{\"id\":\"0.019043216952231212-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1793
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[umavishwa1995@gmail.com, input.email]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='input-email'], using=xpath}"
+          ],
+          "result": "id: 0.2801071459416593-1",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //input[@id='input-email']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='input-email']",
+            "{\"value\":[\"umavishwa1995@gmail.com\"],\"id\":\"0.2801071459416593-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 107
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Blackberry@123, input.password]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='input-password'], using=xpath}"
+          ],
+          "result": "id: 0.2801071459416593-3",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //input[@id='input-password']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='input-password']",
+            "{\"value\":[\"Blackberry@123\"],\"id\":\"0.2801071459416593-3\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 93
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.loginsubmit]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@value='Login'], using=xpath}"
+          ],
+          "result": "id: 0.2801071459416593-4",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@value='Login']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@value='Login']",
+            "{\"id\":\"0.2801071459416593-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3211
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[homepage]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=common/home'], using=xpath}"
+          ],
+          "result": "id: 0.6194333768422406-1",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=common/home']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=common/home']",
+            "{\"id\":\"0.6194333768422406-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1541
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyText",
+      "args": [
+        "[homepage, Your Store]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=common/home'], using=xpath}"
+          ],
+          "result": "[id: 0.0560994988550223-1]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=common/home'], using=xpath}"
+          ],
+          "result": "id: 0.0560994988550223-1",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=common/home']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=common/home']",
+            "{\"id\":\"0.0560994988550223-1\"}"
+          ],
+          "result": "getElementText:Your Store",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=common/home'], using=xpath}"
+          ],
+          "result": "id: 0.0560994988550223-1",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=common/home']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=common/home']",
+            "{\"id\":\"0.0560994988550223-1\"}"
+          ],
+          "result": "getElementText:Your Store",
+          "subLogs": [],
+          "duration": 10
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyLinkWithTextPresent",
+      "args": [
+        "[Your Store]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Your Store, using=link text}"
+          ],
+          "result": "[id: 0.0560994988550223-1]",
+          "subLogs": [],
+          "duration": 36
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertText",
+      "args": [
+        "[homepage, Your Store]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=common/home'], using=xpath}"
+          ],
+          "result": "[id: 0.0560994988550223-1]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=common/home'], using=xpath}"
+          ],
+          "result": "id: 0.0560994988550223-1",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=common/home']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=common/home']",
+            "{\"id\":\"0.0560994988550223-1\"}"
+          ],
+          "result": "getElementText:Your Store",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=common/home'], using=xpath}"
+          ],
+          "result": "id: 0.0560994988550223-1",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=common/home']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=common/home']",
+            "{\"id\":\"0.0560994988550223-1\"}"
+          ],
+          "result": "getElementText:Your Store",
+          "subLogs": [],
+          "duration": 9
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://demo.opencart.com/'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 12484,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'button.myaccount'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 191,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'button.login'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1830,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'umavishwa1995@gmail.com' into 'input.email'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 133,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Blackberry@123' into 'input.password'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 114,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'button.loginsubmit'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3235,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'homepage'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1564,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "verify 'homepage' text is 'Your Store'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 501,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Home Page text should be Your Store : Actual Home Page text is Your Store",
+          "type": "Pass",
+          "screenshot": "img/LoginFunctionalityTest_qgrqpma2qcqj40534.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "verify link with text 'Your Store' is present",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 300,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.linkText: Your Store present : Actual By.linkText: Your Store present",
+          "type": "Pass",
+          "screenshot": "img/LoginFunctionalityTest_jwc16sftlmgm40535.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "assert 'homepage' text is 'Your Store'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 326,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Home Page text should be Your Store : Actual Home Page text is Your Store",
+          "type": "Pass",
+          "screenshot": "img/LoginFunctionalityTest_x1rk4j58y0rs40536.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "pass",
+      "type": "Info",
+      "screenshot": "img/LoginFunctionalityTest_1qvbd51mdndja40537.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

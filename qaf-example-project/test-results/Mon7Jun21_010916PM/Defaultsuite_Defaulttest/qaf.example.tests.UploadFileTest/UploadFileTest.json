@@ -1,0 +1,400 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://demo.opencart.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://demo.opencart.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3625
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "maximizeCurrentWindow",
+      "args": [
+        "{}"
+      ],
+      "result": "{width=1552, x=-8, y=-8, height=840}",
+      "subLogs": [],
+      "duration": 139
+    },
+    {
+      "commandName": "mouseOver",
+      "args": [
+        "[components]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=product/category&path=25'], using=xpath}"
+          ],
+          "result": "id: 0.0679372234258151-1",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=product/category&path=25']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.0679372234258151-1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 174
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[monitor]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=product/category&path=25_28'], using=xpath}"
+          ],
+          "result": "id: 0.0679372234258151-2",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=product/category&path=25_28']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=product/category&path=25_28']",
+            "{\"id\":\"0.0679372234258151-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1635
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[applecinema30]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@href='https://demo.opencart.com/index.php?route=product/product&path=25_28&product_id=42'], using=xpath}"
+          ],
+          "result": "id: 0.7281110356793654-1",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=product/product&path=25_28&product_id=42']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@href='https://demo.opencart.com/index.php?route=product/product&path=25_28&product_id=42']",
+            "{\"id\":\"0.7281110356793654-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3425
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[checkbox3]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@value='10'], using=xpath}"
+          ],
+          "result": "id: 0.38064748458642805-1",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //input[@value='10']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@value='10']",
+            "{\"id\":\"0.38064748458642805-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 64
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clear",
+      "args": [
+        "[text]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='input-option208'], using=xpath}"
+          ],
+          "result": "id: 0.38064748458642805-2",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='input-option208']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //*[@id='input-option208']",
+            "{\"id\":\"0.38064748458642805-2\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 57
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[automation, text]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='input-option208'], using=xpath}"
+          ],
+          "result": "id: 0.38064748458642805-2",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='input-option208']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='input-option208']",
+            "{\"value\":[\"automation\"],\"id\":\"0.38064748458642805-2\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 104
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='input-option217'], using=xpath}"
+      ],
+      "result": "id: 0.38064748458642805-4",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@id='input-option217']",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@id='input-option217']",
+        "{\"value\":[\"3\"],\"id\":\"0.38064748458642805-4\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 76
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[automation testing, textarea]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='input-option209'], using=xpath}"
+          ],
+          "result": "id: 0.38064748458642805-5",
+          "subLogs": [],
+          "duration": 42
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='input-option209']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='input-option209']",
+            "{\"value\":[\"automation testing\"],\"id\":\"0.38064748458642805-5\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 113
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://demo.opencart.com/'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6695,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "mouse move on 'components'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 227,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'monitor'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1663,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'applecinema30'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3448,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'checkbox3'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 87,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "clear 'text'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 85,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'automation' into 'text'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 128,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'automation testing' into 'textarea'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 160,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

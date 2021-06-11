@@ -1,0 +1,48 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "firstName": "Uma",
+          "lastName": "Maheswari",
+          "email": "test9@gmail.com",
+          "password": "Test@123",
+          "company": "HCL",
+          "address1": "dhffgjf",
+          "address2": "wtgdfdh",
+          "city": "NewYork",
+          "Zipcode": 7683368675,
+          "homephone": 9864645392,
+          "mobile": 6746927562,
+          "additional": "Automation test",
+          "future": "Title",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "dataFile": "TestData/Registration_Details.xls",
+        "description": "Login Test Scenario QLO",
+        "filter": "",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "AddressTest",
+        "resultFileName": "AddressTest",
+        "sheetName": "UserDetails",
+        "sign": "AddAddressTest.AddressTest(java.util.Map)[pri:0, instance:qaf.example.demo.tests.AddAddressTest@497486b3]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1623219579335,
+      "duration": 20355,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

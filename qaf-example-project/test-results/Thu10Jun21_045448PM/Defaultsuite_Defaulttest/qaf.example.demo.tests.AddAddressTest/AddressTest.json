@@ -1,0 +1,1050 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://demo.qloapps.com/en/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://demo.qloapps.com/en/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 7179
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "maximizeCurrentWindow",
+      "args": [
+        "{}"
+      ],
+      "result": "{width=1552, x=-8, y=-8, height=840}",
+      "subLogs": [],
+      "duration": 157
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_sign_in]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Sign in, using=link text}"
+          ],
+          "result": "id: 0.25775967077855055-1",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.linkText: Sign in",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.linkText: Sign in",
+            "{\"id\":\"0.25775967077855055-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3301
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clear",
+      "args": [
+        "[qlo_loginemail]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='email'], using=xpath}"
+          ],
+          "result": "id: 0.3906208339944799-1",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='email']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //*[@id='email']",
+            "{\"id\":\"0.3906208339944799-1\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 59
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[test9@gmail.com14, qlo_loginemail]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='email'], using=xpath}"
+          ],
+          "result": "id: 0.3906208339944799-1",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='email']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='email']",
+            "{\"value\":[\"test9@gmail.com14\"],\"id\":\"0.3906208339944799-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 106
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clear",
+      "args": [
+        "[qlo_loginpassword]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='passwd'], using=xpath}"
+          ],
+          "result": "id: 0.3906208339944799-3",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='passwd']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //*[@id='passwd']",
+            "{\"id\":\"0.3906208339944799-3\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 70
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Test@2021, qlo_loginpassword]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='passwd'], using=xpath}"
+          ],
+          "result": "id: 0.3906208339944799-3",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='passwd']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='passwd']",
+            "{\"value\":[\"Test@2021\"],\"id\":\"0.3906208339944799-3\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 174
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_submitsignin]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='SubmitLogin']/span, using=xpath}"
+          ],
+          "result": "id: 0.3906208339944799-4",
+          "subLogs": [],
+          "duration": 45
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='SubmitLogin']/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='SubmitLogin']/span",
+            "{\"id\":\"0.3906208339944799-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3410
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_address]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='center_column']/div/div/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "id: 0.6347527743913577-1",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/ul/li[1]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='center_column']/div/div/ul/li[1]/a",
+            "{\"id\":\"0.6347527743913577-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2128
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[HCL, qlo_company]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='company'], using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-1",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='company']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='company']",
+            "{\"value\":[\"HCL\"],\"id\":\"0.9220272600334376-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 89
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[dhffgjf, qlo_address1]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='address1'], using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-3",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='address1']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='address1']",
+            "{\"value\":[\"dhffgjf\"],\"id\":\"0.9220272600334376-3\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 181
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[wtgdfdh, qlo_address2]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='address2'], using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-4",
+          "subLogs": [],
+          "duration": 51
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='address2']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='address2']",
+            "{\"value\":[\"wtgdfdh\"],\"id\":\"0.9220272600334376-4\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 125
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[NewYork, qlo_city]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='city'], using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-5",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='city']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='city']",
+            "{\"value\":[\"NewYork\"],\"id\":\"0.9220272600334376-5\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 91
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='id_state'], using=xpath}"
+      ],
+      "result": "id: 0.9220272600334376-6",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@id='id_state']",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@id='id_state']",
+        "{\"value\":[\"California  \"],\"id\":\"0.9220272600334376-6\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 92
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[null, qlo_postal]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='postcode'], using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-7",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='postcode']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='postcode']",
+            "{\"value\":[\"null\"],\"id\":\"0.9220272600334376-7\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 85
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='id_country'], using=xpath}"
+      ],
+      "result": "id: 0.9220272600334376-8",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@id='id_country']",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@id='id_country']",
+        "{\"value\":[\"United States  \"],\"id\":\"0.9220272600334376-8\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 89
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[9864645392, qlo_homephone]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='phone'], using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-9",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='phone']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='phone']",
+            "{\"value\":[\"9864645392\"],\"id\":\"0.9220272600334376-9\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 102
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[6746927562, qlo_mobile]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='phone_mobile'], using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-10",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='phone_mobile']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='phone_mobile']",
+            "{\"value\":[\"6746927562\"],\"id\":\"0.9220272600334376-10\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 87
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Automation test, qlo_additional]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='other'], using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-11",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='other']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='other']",
+            "{\"value\":[\"Automation test\"],\"id\":\"0.9220272600334376-11\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 107
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clear",
+      "args": [
+        "[qlo_future]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='alias'], using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-12",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='alias']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //*[@id='alias']",
+            "{\"id\":\"0.9220272600334376-12\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 55
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[My homeaddress, qlo_future]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='alias'], using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-12",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='alias']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='alias']",
+            "{\"value\":[\"My homeaddress\"],\"id\":\"0.9220272600334376-12\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 86
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_save]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='submitAddress']/span, using=xpath}"
+          ],
+          "result": "id: 0.9220272600334376-13",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='submitAddress']/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='submitAddress']/span",
+            "{\"id\":\"0.9220272600334376-13\"}"
+          ],
+          "result": "element click intercepted: Element <span>...</span> is not clickable at point (249, 660). Other element would receive the click: <p id=\"wk-software-name\">...</p>\n  (Session info: chrome=91.0.4472.77)\n  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.07 seconds\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65209}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\\Users\\VISHWA~1\\AppData\\Local\\Temp\\scoped_dir9676_322802513}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 5051fe6673ec4967a54ca6e86f4a53e1",
+          "subLogs": [],
+          "duration": 1075
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@id='submitAddress']/span, using=xpath}"
+          ],
+          "result": "[id: 0.9220272600334376-13]",
+          "subLogs": [],
+          "duration": 17
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_options]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='user_info_acc']/span[1], using=xpath}"
+          ],
+          "result": "id: 0.7464651181023048-1",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='user_info_acc']/span[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='user_info_acc']/span[1]",
+            "{\"id\":\"0.7464651181023048-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 64
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_logout]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Logout, using=link text}"
+          ],
+          "result": "id: 0.7464651181023048-2",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.linkText: Logout",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.linkText: Logout",
+            "{\"id\":\"0.7464651181023048-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 4200
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://demo.qloapps.com/en/'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10701,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_sign_in'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3412,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "clear 'qlo_loginemail'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 96,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'test9@gmail.com14' into 'qlo_loginemail'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 124,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "clear 'qlo_loginpassword'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 95,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Test@2021' into 'qlo_loginpassword'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 225,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_submitsignin'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3457,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_address'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2160,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'HCL' into 'qlo_company'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 122,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'dhffgjf' into 'qlo_address1'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 212,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'wtgdfdh' into 'qlo_address2'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 181,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'NewYork' into 'qlo_city'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 111,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'null' into 'qlo_postal'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 105,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys '9864645392' into 'qlo_homephone'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 127,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys '6746927562' into 'qlo_mobile'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 108,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Automation test' into 'qlo_additional'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 126,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "clear 'qlo_future'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 75,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'My homeaddress' into 'qlo_future'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 99,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_save'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2846,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_options'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 99,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_logout'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 4230,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

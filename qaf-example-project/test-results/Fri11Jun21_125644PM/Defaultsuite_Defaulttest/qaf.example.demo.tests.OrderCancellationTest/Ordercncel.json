@@ -1,0 +1,752 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://demo.qloapps.com/en/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://demo.qloapps.com/en/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5274
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "maximizeCurrentWindow",
+      "args": [
+        "{}"
+      ],
+      "result": "{width=1552, x=-8, y=-8, height=840}",
+      "subLogs": [],
+      "duration": 216
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_sign_in]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=Sign in, using=link text}"
+          ],
+          "result": "id: 0.5526990563371705-1",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.linkText: Sign in",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.linkText: Sign in",
+            "{\"id\":\"0.5526990563371705-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3747
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clear",
+      "args": [
+        "[qlo_loginemail]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='email'], using=xpath}"
+          ],
+          "result": "id: 0.29552554972629874-1",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='email']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //*[@id='email']",
+            "{\"id\":\"0.29552554972629874-1\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 68
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[demo@demo.com, qlo_loginemail]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='email'], using=xpath}"
+          ],
+          "result": "id: 0.29552554972629874-1",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='email']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='email']",
+            "{\"value\":[\"demo@demo.com\"],\"id\":\"0.29552554972629874-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 103
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clear",
+      "args": [
+        "[qlo_loginpassword]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='passwd'], using=xpath}"
+          ],
+          "result": "id: 0.29552554972629874-3",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='passwd']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //*[@id='passwd']",
+            "{\"id\":\"0.29552554972629874-3\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 75
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[demodemo, qlo_loginpassword]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='passwd'], using=xpath}"
+          ],
+          "result": "id: 0.29552554972629874-3",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='passwd']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@id='passwd']",
+            "{\"value\":[\"demodemo\"],\"id\":\"0.29552554972629874-3\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 172
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_submitsignin]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='SubmitLogin']/span, using=xpath}"
+          ],
+          "result": "id: 0.29552554972629874-4",
+          "subLogs": [],
+          "duration": 80
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='SubmitLogin']/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='SubmitLogin']/span",
+            "{\"id\":\"0.29552554972629874-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3122
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_orderDetails]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[contains(text(),'Order history and details')], using=xpath}"
+          ],
+          "result": "id: 0.4527755823308217-1",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //span[contains(text(),'Order history and details')]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[contains(text(),'Order history and details')]",
+            "{\"id\":\"0.4527755823308217-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2229
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_details]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='order-list']/tbody/tr[1]/td[7]/a, using=xpath}"
+          ],
+          "result": "id: 0.5688698962762346-1",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='order-list']/tbody/tr[1]/td[7]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='order-list']/tbody/tr[1]/td[7]/a",
+            "{\"id\":\"0.5688698962762346-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 136
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_cancelreq]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[contains(text(),'Cancel Bookings')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Cancel Bookings')]\"}\n  (Session info: chrome=91.0.4472.77)\n  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 27 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60883}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\\Users\\VISHWA~1\\AppData\\Local\\Temp\\scoped_dir15260_1662588347}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 51201a52b578eda9c9622a754a6b3d82\n*** Element info: {Using=xpath, value=//span[contains(text(),'Cancel Bookings')]}",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[contains(text(),'Cancel Bookings')], using=xpath}"
+          ],
+          "result": "id: 0.5688698962762346-2",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //span[contains(text(),'Cancel Bookings')]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[contains(text(),'Cancel Bookings')]",
+            "{\"id\":\"0.5688698962762346-2\"}"
+          ],
+          "result": "element click intercepted: Element <span>...</span> is not clickable at point (1247, 701). Other element would receive the click: <div class=\"row\" id=\"wk-demolinks-container\">...</div>\n  (Session info: chrome=91.0.4472.77)\n  (Driver info: chromedriver=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.09 seconds\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'LAPTOP-HKP3MAF8', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60883}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}), userDataDir=C:\\Users\\VISHWA~1\\AppData\\Local\\Temp\\scoped_dir15260_1662588347}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 51201a52b578eda9c9622a754a6b3d82",
+          "subLogs": [],
+          "duration": 1089
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[contains(text(),'Cancel Bookings')], using=xpath}"
+          ],
+          "result": "[id: 0.5688698962762346-2]",
+          "subLogs": [],
+          "duration": 21
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=4000000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_checkBoxH]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id='block-order-detail']/form[1]/div[2]/table/tbody/tr/td[1]/div/label/input, using=xpath}"
+          ],
+          "result": "id: 0.5688698962762346-3",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //*[@id='block-order-detail']/form[1]/div[2]/table/tbody/tr/td[1]/div/label/input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id='block-order-detail']/form[1]/div[2]/table/tbody/tr/td[1]/div/label/input",
+            "{\"id\":\"0.5688698962762346-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 94
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=4000000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_C_Submit]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@id='order_refund_request_submit'], using=xpath}"
+          ],
+          "result": "id: 0.5688698962762346-4",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //button[@id='order_refund_request_submit']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[@id='order_refund_request_submit']",
+            "{\"id\":\"0.5688698962762346-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 162
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[THANK YOU, qlo_comments]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1], using=xpath}"
+          ],
+          "result": "id: 0.5688698962762346-5",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/textarea[1]",
+            "{\"value\":[\"THANK YOU\"],\"id\":\"0.5688698962762346-5\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 115
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[qlo_submitCancel]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@id='submit_refund_reason'], using=xpath}"
+          ],
+          "result": "id: 0.5688698962762346-6",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: //button[@id='submit_refund_reason']",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[@id='submit_refund_reason']",
+            "{\"id\":\"0.5688698962762346-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 141
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='block-order-detail']/form[1]/div[1], using=xpath}"
+      ],
+      "result": "id: 0.5688698962762346-7",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@id='block-order-detail']/form[1]/div[1]",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //*[@id='block-order-detail']/form[1]/div[1]",
+        "{\"id\":\"0.5688698962762346-7\"}"
+      ],
+      "result": "getElementText:CANCEL REQUEST\nREFUND POLICIES",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=4000000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 5
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://demo.qloapps.com/en/'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10552,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_sign_in'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3845,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "clear 'qlo_loginemail'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 94,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'demo@demo.com' into 'qlo_loginemail'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 120,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "clear 'qlo_loginpassword'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 97,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'demodemo' into 'qlo_loginpassword'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 198,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_submitsignin'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3206,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_orderDetails'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2259,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_details'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 163,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "pass",
+      "type": "Info",
+      "screenshot": "img/Ordercncel_1ijur9rdoq4yh30853.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_cancelreq'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2242,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_checkBoxH'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 117,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_C_Submit'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 182,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'THANK YOU' into 'qlo_comments'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 138,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'qlo_submitCancel'",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 171,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: \" You have booking cancelation requests from this order. To see the cancelation request status \"\n     Actual: was \"CANCEL REQUEST\\nREFUND POLICIES\"",
+      "type": "Fail",
+      "screenshot": "img/Ordercncel_1gvfpa1r6s3hr30854.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "pass",
+      "type": "Info",
+      "screenshot": "img/Ordercncel_2vaupb75gpnd30855.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

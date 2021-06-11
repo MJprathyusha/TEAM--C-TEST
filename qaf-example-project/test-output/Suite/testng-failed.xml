@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="qaf.example.tests.CreateAccountFailTest">
+        <methods>
+          <include name="createAccountFailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- qaf.example.tests.CreateAccountFailTest -->
+      <class name="qaf.example.tests.CreateAccountTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- qaf.example.tests.CreateAccountTest -->
+      <class name="qaf.example.tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- qaf.example.tests.LoginTest -->
+      <class name="qaf.example.tests.UploadFileTest">
+        <methods>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- qaf.example.tests.UploadFileTest -->
+      <class name="qaf.example.tests.EditAccountTest">
+        <methods>
+          <include name="editAccountTest" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- qaf.example.tests.EditAccountTest -->
+      <class name="qaf.example.tests.IphoneSearchTest">
+        <methods>
+          <include name="LoginFunctionalityTest" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- qaf.example.tests.IphoneSearchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

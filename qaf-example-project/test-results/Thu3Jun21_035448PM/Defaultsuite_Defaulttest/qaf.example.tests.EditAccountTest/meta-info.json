@@ -1,0 +1,41 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "firstName": "Uma",
+          "lastName": "Maheswari",
+          "email": "umavishwa1995@gmail.com",
+          "telephone": 8919022031,
+          "password": "Blackberry@123",
+          "passwordConfirm": "Blackberry@123",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "dataFile": "TestData/UserData.xls",
+        "description": "CreateAccount Test Scenario",
+        "filter": "",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "editAccountTest",
+        "resultFileName": "EditAccountTest",
+        "sheetName": "UserDetails",
+        "sign": "EditAccountTest.editAccountTest(java.util.Map)[pri:0, instance:qaf.example.tests.EditAccountTest@1e636ea3]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1622715888983,
+      "duration": 40558,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
