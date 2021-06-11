@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.qmetry.qaf.example.test.TC1_RegisterAccount" />
+			<class name="com.qmetry.qaf.example.test.TC2_AddingAddress" />
+			<class name="com.qmetry.qaf.example.test.TC3_Booking" />
+			<class name="com.qmetry.qaf.example.test.TC4_Order" />
+			<class name="com.qmetry.qaf.example.test.TC5_Personal" />
+			<class name="com.qmetry.qaf.example.test.TC6_ContactUs" />
+			<class name="com.qmetry.qaf.example.test.TC7_Removecart" />
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
